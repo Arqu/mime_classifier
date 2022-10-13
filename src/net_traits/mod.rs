@@ -6,13 +6,13 @@
 /// <https://mimesniff.spec.whatwg.org/#context-specific-sniffing>
 #[derive(Clone, Debug, Deserialize, Serialize)]
 pub enum LoadContext {
-  Browsing,
-  Image,
-  AudioVideo,
-  Plugin,
-  Style,
-  Script,
-  Font,
-  TextTrack,
-  CacheManifest,
+    Browsing,
+    Image,
+    AudioVideo,
+    Plugin,
+    Style,
+    Script,
+    Font,
+    TextTrack,
+    CacheManifest,
 }
